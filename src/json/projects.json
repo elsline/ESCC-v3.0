@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1,
+    "cardTitle": "OVO EGG - PASTEURIZATION FACTORY",
+    "pageTitle": "PASTEURIZATION FACTORY",
+    "mainImage": "/images/projects/1/1.jpg",
+    "client": "OVO Egg",
+    "location": "Egypt, 6th Of October City",
+    "completed": "2021",
+    "gallery": [
+      "/images/projects/1/1/1 (1).png",
+      "/images/projects/1/1/1 (2).png",
+      "/images/projects/1/1/1 (3).png",
+      "/images/projects/1/1/1 (4).png",
+      "/images/projects/1/1/1 (5).png",
+      "/images/projects/1/1/1 (6).png",
+      "/images/projects/1/1/1 (7).png",
+      "/images/projects/1/1/1 (8).png",
+      "/images/projects/1/1/1 (9).png",
+      "/images/projects/1/1/1 (10).png",
+      "/images/projects/1/1/1 (11).png",
+      "/images/projects/1/1/1 (12).png"
+    ]
+  },
+  {
+    "id": 2,
+    "cardTitle": "EPX Egyptian Pharamex - Re Design & Construction",
+    "pageTitle": "NEW PHARMACUTICAL WAREHOUSE",
+    "mainImage": "/images/projects/2/1.jpg",
+    "client": "EPX Egyptian Pharamex",
+    "location": "OBOUR CITY",
+    "completed": "2011",
+    "gallery": [
+      "/images/projects/2/2/2 (1).png",
+      "/images/projects/2/2/2 (2).png",
+      "/images/projects/2/2/2 (3).png",
+      "/images/projects/2/2/2 (4).png",
+      "/images/projects/2/2/2 (5).png",
+      "/images/projects/2/2/2 (6).png",
+      "/images/projects/2/2/2 (7).png",
+      "/images/projects/2/2/2 (8).png",
+      "/images/projects/2/2/2 (9).png",
+      "/images/projects/2/2/2 (10).png",
+      "/images/projects/2/2/2 (11).png",
+      "/images/projects/2/2/2 (12).png"
+    ]
+  },
+  {
+    "id": 3,
+    "cardTitle": "Mars - construction of new tankCA COLA",
+    "pageTitle": "CONSTRUCTION OF NEW STEEL TANK",
+    "mainImage": "/images/projects/3/1.jpg",
+    "client": "Mars",
+    "location": "Saudi Arabia",
+    "completed": "2021",
+    "gallery": [
+      "/images/projects/3/3/3 (1).png",
+      "/images/projects/3/3/3 (2).png",
+      "/images/projects/3/3/3 (3).png",
+      "/images/projects/3/3/3 (4).png",
+      "/images/projects/3/3/3 (5).png",
+      "/images/projects/3/3/3 (6).png",
+      "/images/projects/3/3/3 (7).png",
+      "/images/projects/3/3/3 (8).png",
+      "/images/projects/3/3/3 (9).png",
+      "/images/projects/3/3/3 (10).png",
+      "/images/projects/3/3/3 (11).png",
+      "/images/projects/3/3/3 (12).png"
+    ]
+  },
+  {
+    "id": 4,
+    "cardTitle": "Coca Cola - Krones filling Line installation",
+    "pageTitle": "INSTALL KRONES LINE",
+    "mainImage": "/images/projects/4/1.jpg",
+    "client": "Coca Cola",
+    "location": "Tanta Egypt",
+    "completed": "2021",
+    "gallery": [
+      "/images/projects/4/4/4 (1).png",
+      "/images/projects/4/4/4 (2).png",
+      "/images/projects/4/4/4 (3).png",
+      "/images/projects/4/4/4 (4).png",
+      "/images/projects/4/4/4 (5).png",
+      "/images/projects/4/4/4 (6).png",
+      "/images/projects/4/4/4 (7).png",
+      "/images/projects/4/4/4 (8).png",
+      "/images/projects/4/4/4 (9).png",
+      "/images/projects/4/4/4 (10).png",
+      "/images/projects/4/4/4 (11).png",
+      "/images/projects/4/4/4 (12).png"
+    ]
+  },
+  {
+    "id": 5,
+    "cardTitle": "Danone Egypt - Demolish & build new industrial drain tank",
+    "pageTitle": "DEMOLISH & BUILD NEW INDUSTRIAL DRAIN TANK",
+    "mainImage": "/images/projects/5/1.jpg",
+    "client": "Danone Egypt",
+    "location": "Egypt, Obour Industrial Area",
+    "completed": "2021",
+    "gallery": [
+      "/images/projects/5/5/5 (1).png",
+      "/images/projects/5/5/5 (2).png",
+      "/images/projects/5/5/5 (3).png",
+      "/images/projects/5/5/5 (4).png",
+      "/images/projects/5/5/5 (5).png",
+      "/images/projects/5/5/5 (6).png",
+      "/images/projects/5/5/5 (7).png",
+      "/images/projects/5/5/5 (8).png",
+      "/images/projects/5/5/5 (9).png",
+      "/images/projects/5/5/5 (10).png",
+      "/images/projects/5/5/5 (11).png",
+      "/images/projects/5/5/5 (12).png"
+    ]
+  },
+  {
+    "id": 6,
+    "cardTitle": "AMERICANA - NEW BEANS FACTORY",
+    "pageTitle": "NEW BEANS FACTORY",
+    "mainImage": "/images/projects/6/1.jpg",
+    "client": "Americana",
+    "location": "Egypt, 6th Of October City",
+    "completed": "2016",
+    "gallery": [
+      "/images/projects/6/6/6 (1).png",
+      "/images/projects/6/6/6 (2).png",
+      "/images/projects/6/6/6 (3).png",
+      "/images/projects/6/6/6 (4).png",
+      "/images/projects/6/6/6 (5).png",
+      "/images/projects/6/6/6 (6).png",
+      "/images/projects/6/6/6 (7).png",
+      "/images/projects/6/6/6 (8).png",
+      "/images/projects/6/6/6 (9).png",
+      "/images/projects/6/6/6 (10).png",
+      "/images/projects/6/6/6 (11).png",
+      "/images/projects/6/6/6 (12).png"
+    ]
+  },
+  {
+    "id": 7,
+    "cardTitle": "LE SAFFRE - DEMOLITION OF WASTE WATER TREATMENT",
+    "pageTitle": "DEMOLITION OF WASTE WATER TREATMENT",
+    "mainImage": "/images/projects/7/1.jpg",
+    "client": "Le Saffre",
+    "location": "Nubaria Egypt",
+    "completed": "2019",
+    "gallery": [
+      "/images/projects/7/7/7 (1).png",
+      "/images/projects/7/7/7 (2).png",
+      "/images/projects/7/7/7 (3).png",
+      "/images/projects/7/7/7 (4).png",
+      "/images/projects/7/7/7 (5).png",
+      "/images/projects/7/7/7 (6).png",
+      "/images/projects/7/7/7 (7).png",
+      "/images/projects/7/7/7 (8).png",
+      "/images/projects/7/7/7 (9).png",
+      "/images/projects/7/7/7 (10).png",
+      "/images/projects/7/7/7 (11).png",
+      "/images/projects/7/7/7 (12).png"
+    ]
+  },
+  {
+    "id": 8,
+    "cardTitle": "DANONE - COMPLETE FIRE PROTECTION SYSTEM",
+    "pageTitle": "COMPLETE FIRE PROTECTION SYSTEM",
+    "mainImage": "/images/projects/8/1.jpg",
+    "client": "Extra",
+    "location": "Egypt, Badr City",
+    "completed": "2018",
+    "gallery": [
+      "/images/projects/8/8/8 (1).png",
+      "/images/projects/8/8/8 (2).png",
+      "/images/projects/8/8/8 (3).png",
+      "/images/projects/8/8/8 (4).png",
+      "/images/projects/8/8/8 (5).png",
+      "/images/projects/8/8/8 (6).png",
+      "/images/projects/8/8/8 (7).png",
+      "/images/projects/8/8/8 (8).png",
+      "/images/projects/8/8/8 (9).png",
+      "/images/projects/8/8/8 (10).png",
+      "/images/projects/8/8/8 (11).png",
+      "/images/projects/8/8/8 (12).png"
+    ]
+  },
+  {
+    "id": 9,
+    "cardTitle": "P&G - NEW COMPLETE FIRE PROTECTION SYSTEM",
+    "pageTitle": "NEW COMPLETE FIRE PROTECTION SYSTEM",
+    "mainImage": "/images/projects/9/1.jpg",
+    "client": "Kellogg's",
+    "location": "Egypt, 10th Of Ramadan City",
+    "completed": "2020",
+    "gallery": [
+      "/images/projects/9/9/9 (1).png",
+      "/images/projects/9/9/9 (2).png"
+    ]
+  },
+  {
+    "id": 10,
+    "cardTitle": "P&G - NEW DIAPER PRODUCTION FACILITY PROJECT",
+    "pageTitle": "NEW DIAPER PRODUCTION FACILITY PROJECT",
+    "mainImage": "/images/projects/10/1.jpg",
+    "client": "Malak & Cacola",
+    "location": "Egypt",
+    "completed": "2020",
+    "gallery": [
+      "/images/projects/10/10/10 (1).png",
+      "/images/projects/10/10/10 (2).png",
+      "/images/projects/10/10/10 (3).png"
+    ]
+  },
+  {
+    "id": 11,
+    "cardTitle": "Kraft Foods - Additional Openings & Strenghining",
+    "pageTitle": "ADDITIONAL OPENINGS & STRENGHINING",
+    "mainImage": "/images/projects/11/1.jpg",
+    "client": "Haribo",
+    "location": "Germany",
+    "completed": "2020",
+    "gallery": [
+      "/images/projects/11/11/11 (1).png",
+      "/images/projects/11/11/11 (2).png"
+    ]
+  },
+  {
+    "id": 12,
+    "cardTitle": "Kraft Foods - Warehouse Renovation",
+    "pageTitle": "WAREHOUSE RENOVATION",
+    "mainImage": "/images/projects/12/1.jpg",
+    "client": "Nestle",
+    "location": "Egypt, 10th Of Ramadan City",
+    "completed": "2020",
+    "gallery": [
+      "/images/projects/12/12/12 (1).png",
+      "/images/projects/12/12/12 (2).png",
+      "/images/projects/12/12/12 (3).png"
+    ]
+  }
+]

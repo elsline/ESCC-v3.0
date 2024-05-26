@@ -1,0 +1,14 @@
+footer {
+  background-image: url("../imgs/wallfooter.png") !important;
+  background-position: center;
+  background-size: cover;
+}
+footer ul li {
+  transition: 0.4s;
+}
+footer ul li a.active {
+  opacity: 1;
+}
+footer ul li a:hover {
+  opacity: 1;
+}/*# sourceMappingURL=footer.css.map */

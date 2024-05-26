@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Engineering Services",
+    "cardImg": "'./src/imgs/services/serv1.png'",
+    "image2": "/images/services/service (1).png",
+    "list": [
+      "Civil works, Concrete & Steel Structures.",
+      "Architectural and Interior design.",
+      "Mechanical",
+      "Electrical",
+      "Site Survey & as built drawings."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Projects Management Services",
+    "cardImg": "'./src/imgs/services/serv2.png'",
+    "image2": "/images/services/service (2).png",
+    "list": [
+      "Construction Management.",
+      "Construction Supervision & Direction.",
+      "Construction & Erection Contracting.",
+      "Technical Assistance & Consultancy.",
+      "Planning & Cost Control.",
+      "Procurement"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Construction Contracting",
+    "cardImg": "'./src/imgs/services/serv3.png'",
+    "image2": "/images/services/service (3).png",
+    "list": [
+      "Civil works, Concrete & Steel Structures.",
+      "Equipment Installation Works.",
+      "Electrical Works.",
+      "Mechanical Fabrication & Installation works (Storage tanks, piping, ducting).",
+      "Tools, Equipment and Material Supplies."
+    ]
+  }
+]

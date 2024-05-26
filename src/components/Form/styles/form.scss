@@ -1,0 +1,52 @@
+.contact {
+  .form-container {
+    max-width: 480px;
+    background-color: transparent;
+    margin: auto;
+    padding: 20px;
+  }
+  .form-background {
+    background-image: url("../form.png");
+  }
+  form {
+    .form-group {
+      margin-bottom: 12px;
+    }
+    .form-group label {
+      color: #2a354c;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      display: flex;
+    }
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #2a354c;
+      border-radius: 4px;
+      margin-top: 8px;
+      color: black;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      background-color: transparent;
+    }
+    .form-group textarea {
+      height: 112px;
+      resize: none;
+    }
+
+    .react-international-phone-country-selector {
+      bottom: -4px;
+      left: -3px;
+    }
+    .react-international-phone-country-selector-button {
+      border: none;
+    }
+  }
+}

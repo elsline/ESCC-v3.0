@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .tr-3 {
+    @apply [transition:0.3s];
+  }
+  .tr-4 {
+    @apply [transition:0.4s];
+  }
+  .navLink span {
+    @apply text-[16px] not-italic font-medium leading-[30px] uppercase tr-4 opacity-70 hover:opacity-100;
+  }
+  .navLink.active span {
+    @apply opacity-100;
+  }
+  .mainBtn {
+    @apply lg:text-[16px] text-[14px] hover:text-white   px-4  py-3 w-[fit-content] inline-block justify-center items-center border-[1px] border-solid border-white bg-transparent cursor-pointer relative overflow-hidden [transition:0.4s_ease] text-[white]  font-medium uppercase after:content-[""] after:absolute after:bg-main-blue after:w-[40px] after:h-full after:rounded-[50px] after:left-[0] after:top-[0] after:bottom-[0] after:[transition:0.4s_ease] after:opacity-0 after:z-[-1] before:content-[""] before:absolute  before:bg-main-blue before:w-[40px] before:h-full before:rounded-[50px] before:left-[0] before:top-[0] before:bottom-[0] before:[transition:0.4s] before:opacity-0 before:z-[-1];
+  }
+  .sec-title {
+    @apply relative lg:text-[18px] not-italic font-medium lg:leading-[30px] uppercase lg:pl-[66px] before:content-[""] before:absolute before:bg-[white] lg:before:left-[0] lg:before:top-2/4 before:-top-[10px] before:left-px before:-translate-y-1/2 before:h-[4px] lg:before:w-[50px]  before:w-[25px] leading-[20px] pl-px max-w-[300px] lg:max-w-[none] text-[14px];
+  }
+  .prog {
+    @apply relative after:content-[""] after:absolute after:left-[0] after:-bottom-[20px] lg:after:-bottom-[40px] after:w-full after:h-[4px] after:bg-[#949aa6];
+  }
+  .prog .num {
+    @apply relative lg:text-[48px] text-[32px] not-italic font-semibold leading-[42px] lg:pb-[40px] pb-[20px];
+  }
+  .prog span {
+    @apply text-[18px] not-italic font-normal leading-[32px] uppercase;
+  }
+}

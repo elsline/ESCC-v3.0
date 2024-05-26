@@ -1,0 +1,25 @@
+.get-started {
+  max-height: 367px;
+}
+.get-started .get:hover .fast {
+  color: #0300ff;
+  font-size: 56px;
+}
+.get-started .secBtn {
+  transition: 0.4s;
+  position: relative;
+}
+.get-started .secBtn svg {
+  width: 20px;
+  transition: 0.5s;
+}
+.get-started .secBtn svg g path {
+  transition: 0.5s;
+  fill: blue;
+}
+.get-started .secBtn:hover svg {
+  transform: rotate(45deg);
+}
+.get-started .secBtn:hover svg g path {
+  fill: white;
+}/*# sourceMappingURL=getStarted.css.map */

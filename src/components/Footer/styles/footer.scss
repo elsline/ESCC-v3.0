@@ -1,0 +1,18 @@
+footer {
+  background-image: url("../imgs/wallfooter.png") !important;
+  background-position: center;
+  background-size: cover;
+  ul {
+    li {
+      transition: 0.4s;
+      a {
+        &.active {
+          opacity: 1;
+        }
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

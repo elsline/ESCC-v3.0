@@ -1,0 +1,337 @@
+.hero-page {
+  background-image: url("../imgs/hero.jpg") !important;
+}
+
+.services-section .main-div {
+  position: relative;
+  transition: 0.5s ease;
+  border-right: 1px solid white;
+}
+.services-section .main-div:last-child {
+  border-right: none;
+}
+.services-section .main-div.div1 {
+  background-image: url("../imgs/services/serv1.png") !important;
+}
+.services-section .main-div.div2 {
+  background-image: url("../imgs/services/serv2.png") !important;
+}
+.services-section .main-div.div3 {
+  background-image: url("../imgs/services/serv3.png") !important;
+}
+.services-section .main-div .service {
+  z-index: 1;
+  transition: 0.5s ease;
+  position: absolute;
+  background-color: transparent;
+}
+.services-section .main-div .service.serv1 {
+  bottom: -300px;
+}
+.services-section .main-div .service.serv2 {
+  bottom: -340px;
+}
+@media (max-width: 1190px) {
+  .services-section .main-div .service.serv2 {
+    bottom: -380px;
+  }
+}
+.services-section .main-div .service.serv3 {
+  bottom: -380px;
+}
+.services-section .main-div .service.serv4 {
+  bottom: -380px;
+}
+@media (max-width: 1190px) {
+  .services-section .main-div .service {
+    bottom: -345px;
+  }
+}
+.services-section .main-div:hover .service {
+  bottom: 25px;
+}
+.services-section .main-div:hover:after {
+  opacity: 0;
+}
+.services-section .main-div h2 {
+  width: 280px;
+}
+.services-section .main-div ul {
+  transform: translateY(0);
+}
+.services-section .main-div::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(42, 53, 76, 0.8);
+  left: 0;
+  top: 0;
+  bottom: 0;
+  transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 1160px) {
+  .services-section {
+    height: 600px;
+    display: flex !important;
+    flex-direction: column;
+  }
+  .services-section .main-div {
+    padding: 0;
+    height: 300px;
+    border-right: none;
+    border-bottom: 1px solid white;
+  }
+  .services-section .main-div .service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .services-section .main-div .service.serv1 {
+    bottom: 0;
+  }
+  .services-section .main-div .service.serv2 {
+    bottom: 0;
+  }
+  .services-section .main-div .service.serv3 {
+    bottom: 0;
+  }
+  .services-section .main-div .service h2 {
+    padding-left: 24px;
+    width: 280px;
+    font-size: 32px;
+  }
+  .services-section .main-div .service ul {
+    display: none;
+  }
+}
+.projects-section .secBtn svg,
+.projects .secBtn svg {
+  transition: 0.4s;
+}
+.projects-section .secBtn svg g path,
+.projects .secBtn svg g path {
+  transition: 0.4s;
+}
+.projects-section .secBtn:hover svg,
+.projects .secBtn:hover svg {
+  transform: rotate(45deg);
+}
+.projects-section .secBtn:hover svg g path,
+.projects .secBtn:hover svg g path {
+  fill: #2a354c;
+}
+.projects-section .card,
+.projects .card {
+  transition: 0.6s ease;
+}
+.projects-section .card:hover .mainBtn,
+.projects .card:hover .mainBtn {
+  bottom: 10px;
+}
+.projects-section .card:hover .info,
+.projects .card:hover .info {
+  transform: translateY(-70px);
+}
+@media (max-width: 767px) {
+  .projects-section .card:hover .mainBtn,
+  .projects .card:hover .mainBtn {
+    bottom: 0;
+  }
+  .projects-section .card:hover .info,
+  .projects .card:hover .info {
+    transform: translateY(0);
+  }
+}
+.projects-section .card .info,
+.projects .card .info {
+  position: relative;
+  transition: 0.6s ease;
+  transform: translateY(0);
+  background-color: white;
+}
+.projects-section .card .mainBtn,
+.projects .card .mainBtn {
+  transition: 0.6s ease;
+  position: relative;
+}
+.projects-section .card .mainBtn svg,
+.projects .card .mainBtn svg {
+  transition: 0.4s;
+}
+.projects-section .card .mainBtn svg g path,
+.projects .card .mainBtn svg g path {
+  transition: 0.4s;
+  fill: blue;
+}
+.projects-section .card .mainBtn:hover svg,
+.projects .card .mainBtn:hover svg {
+  transform: rotate(45deg);
+}
+.projects-section .card .mainBtn:hover svg g path,
+.projects .card .mainBtn:hover svg g path {
+  fill: white;
+}
+.projects-section .swiper-pagination-bullet-active,
+.projects .swiper-pagination-bullet-active {
+  background-color: #2a354c !important;
+}
+
+.partners-section .partners {
+  position: relative;
+}
+.partners-section .partners .sec-title {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.partners-section .partners .scrollingImgs .scrolling-items {
+  position: relative;
+  display: flex;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+.partners-section .partners .scrollingImgs .scrolling-items .scrolling-img {
+  display: flex;
+  gap: 50px;
+  text-wrap: nowrap;
+  text-align: center;
+  animation: scrollLeft 26s infinite linear;
+  padding-left: 50px;
+}
+.partners-section .partners .scrollingImgs .scrolling-items .scrolling-img .img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.partners-section .partners .scrollingImgs .scrolling-items .scrolling-img .img img {
+  opacity: 0.7;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.landing {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), linear-gradient(0deg, rgba(3, 0, 255, 0.2) 0%, rgba(3, 0, 255, 0.2) 100%), url("../imgs/landing/aboutlandingWall.jpg"), lightgray 50%/cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.landing .landing-text a {
+  opacity: 0.7;
+}
+.landing .landing-text a.active {
+  opacity: 1;
+}
+
+.project-page .landing-text a {
+  opacity: 0.7;
+}
+.project-page .landing-text a.active {
+  opacity: 1;
+}
+
+.about .landing {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), linear-gradient(0deg, rgba(3, 0, 255, 0.2) 0%, rgba(3, 0, 255, 0.2) 100%), url("../imgs/landing/aboutlandingWall.jpg"), lightgray 50%/cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.services .landing {
+  background: url("../imgs/landing/servicesWall.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.projects .landing {
+  background: url("../imgs/landing/projectsWall.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.certificates .landing {
+  background: url("../imgs/landing/cartsWall.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.HowWeWork {
+  background-image: url("../imgs/howall.jpg") !important;
+}
+.HowWeWork .card h4::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #0300ff;
+  border-radius: 100%;
+  bottom: -1px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  z-index: 1;
+}
+.HowWeWork .card h4::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border: 1px dashed #0300ff;
+  bottom: 0;
+  left: 0;
+}
+.HowWeWork .card2 h4::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-radius: 100%;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 4px 0 4px 8px;
+  border-color: transparent transparent transparent #0300ff;
+  z-index: 1;
+}
+.HowWeWork .card3 h4::before {
+  right: -2px;
+}
+
+.contact .landing,
+.project-page .landing {
+  background-image: none;
+  background-color: white;
+  color: black !important;
+}
+.contact .landing h2,
+.project-page .landing h2 {
+  color: #2a354c;
+  max-width: 900px;
+}
+.contact .landing span,
+.project-page .landing span {
+  color: #2a354c;
+}
+.contact .lazy-load-image-background,
+.project-page .lazy-load-image-background {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.project-page .gallery .gallery-image {
+  overflow: hidden;
+  transition: 0.4s;
+}
+.project-page .gallery .gallery-image img {
+  transition: 0.4s !important;
+}
+.project-page .gallery .gallery-image:hover img {
+  scale: 1.3;
+}/*# sourceMappingURL=sections.css.map */

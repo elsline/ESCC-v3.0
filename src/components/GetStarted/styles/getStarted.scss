@@ -1,0 +1,30 @@
+$main-blue: #0300ff;
+.get-started {
+  max-height: 367px;
+  .get:hover {
+    .fast {
+      color: $main-blue;
+      font-size: 56px;
+    }
+  }
+  .secBtn {
+    transition: 0.4s;
+    position: relative;
+    svg {
+      width: 20px;
+      transition: 0.5s;
+    }
+    svg g path {
+      transition: 0.5s;
+      fill: blue;
+    }
+    &:hover {
+      svg {
+        transform: rotate(45deg);
+      }
+      svg g path {
+        fill: white;
+      }
+    }
+  }
+}

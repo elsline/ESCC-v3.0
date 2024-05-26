@@ -1,0 +1,104 @@
+header {
+  transition: 0.4s ease;
+  background-color: transparent;
+}
+header .container {
+  animation: NavAnimation 0.7s 8s linear alternate;
+}
+header:after {
+  transition: 0.4s ease;
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  top: -100px;
+  left: 0;
+  z-index: -1;
+}
+header .navLink::after {
+  animation: NavAnimation2 1.5s 8s linear alternate;
+}
+header.scrolled {
+  transform: translateY(0);
+}
+header.scrolled:after {
+  top: 0;
+}
+header.scrolled .logo g {
+  fill: #0300ff;
+}
+header.scrolled .navLink {
+  color: #2a354c;
+}
+header.scrolled .navLink::after {
+  background-color: #0300ff;
+}
+header.scrolled .navLink:hover {
+  color: #0300ff;
+}
+header.scrolled .navLink.active {
+  color: #0300ff;
+}
+header.scrolled .contact-btn {
+  color: black;
+  border-color: black;
+}
+header.scrolled .contact-btn:hover {
+  color: white;
+  border-color: white;
+}
+header.scrolled .megaIcon span {
+  background-color: black;
+}
+header.contactUsHeader {
+  background-color: white;
+}
+header.contactUsHeader .logo g {
+  fill: #0300ff;
+}
+header.contactUsHeader .navLink {
+  color: #2a354c;
+}
+header.contactUsHeader .navLink::after {
+  background-color: #0300ff;
+}
+header.contactUsHeader .navLink:hover {
+  color: #0300ff;
+}
+header.contactUsHeader .navLink.active {
+  color: #0300ff;
+}
+header.contactUsHeader .contact-btn {
+  color: black;
+  border-color: black;
+}
+header.contactUsHeader .contact-btn:hover {
+  color: white;
+  border-color: white;
+}
+header.contactUsHeader .megaIcon span {
+  background-color: black;
+}
+
+.navLink {
+  font-weight: 500;
+  position: relative;
+}
+.navLink::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 0;
+  background-color: white;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s;
+}
+.navLink:hover::after {
+  height: 50px;
+}
+.navLink.active::after {
+  height: 50px;
+} /*# sourceMappingURL=header.css.map */

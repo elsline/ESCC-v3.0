@@ -1,0 +1,143 @@
+$main-blue: #0300ff;
+$sec-blue: #2a354c;
+$main-grey: #949aa6;
+
+header {
+  .container {
+    animation: NavAnimation 0.7s 8s linear alternate;
+  }
+  transition: 0.4s ease;
+  background-color: transparent;
+  &:after {
+    transition: 0.4s ease;
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    top: -100px;
+    left: 0;
+    z-index: -1;
+  }
+  .navLink {
+    &::after {
+      animation: NavAnimation2 1.5s 8s linear alternate;
+    }
+  }
+  &.scrolled {
+    transform: translateY(0);
+    &:after {
+      top: 0;
+    }
+    .logo {
+      g {
+        fill: $main-blue;
+      }
+    }
+    .navLink {
+      color: $sec-blue;
+      &::after {
+        background-color: $main-blue;
+      }
+
+      &:hover {
+        color: $main-blue;
+      }
+      &.active {
+        color: $main-blue;
+      }
+    }
+    .contact-btn {
+      color: black;
+      &:hover {
+        color: white;
+        border-color: white;
+      }
+      border-color: black;
+    }
+
+    .megaIcon {
+      span {
+        background-color: black;
+      }
+    }
+  }
+  &.contactUsHeader {
+    background-color: white;
+    .logo {
+      g {
+        fill: $main-blue;
+      }
+    }
+    .navLink {
+      color: $sec-blue;
+      &::after {
+        background-color: $main-blue;
+      }
+
+      &:hover {
+        color: $main-blue;
+      }
+      &.active {
+        color: $main-blue;
+      }
+    }
+    .contact-btn {
+      color: black;
+      &:hover {
+        color: white;
+        border-color: white;
+      }
+      border-color: black;
+    }
+
+    .megaIcon {
+      span {
+        background-color: black;
+      }
+    }
+  }
+}
+// @keyframes NavAnimation {
+//   0% {
+//     opacity: 0;
+//     transform: translateY(-100px);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
+// @keyframes NavAnimation2 {
+//   0% {
+//     top: -103px;
+//   }
+//   100% {
+//     top: -50px;
+//   }
+// }
+.navLink {
+  font-weight: 500;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 0;
+    background-color: white;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+  }
+  &:hover {
+    &::after {
+      height: 50px;
+    }
+  }
+  &.active {
+    &::after {
+      height: 50px;
+    }
+  }
+}

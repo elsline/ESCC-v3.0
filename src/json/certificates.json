@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "/images/certificates/cr1.png"
+  },
+  {
+    "id": 2,
+    "image": "/images/certificates/cr2.png"
+  },
+  {
+    "id": 3,
+    "image": "/images/certificates/cr3.png"
+  },
+  {
+    "id": 4,
+    "image": "/images/certificates/cr4.png"
+  },
+  {
+    "id": 5,
+    "image": "/images/certificates/cr5.png"
+  },
+  {
+    "id": 6,
+    "image": "/images/certificates/cr6.png"
+  },
+  {
+    "id": 7,
+    "image": "/images/certificates/cr7.png"
+  },
+  {
+    "id": 8,
+    "image": "/images/certificates/cr8.png"
+  },
+  {
+    "id": 9,
+    "image": "/images/certificates/cr9.png"
+  },
+  {
+    "id": 10,
+    "image": "/images/certificates/cr10.png"
+  }
+]

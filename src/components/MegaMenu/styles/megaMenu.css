@@ -1,0 +1,132 @@
+.mega-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  margin-left: 3rem;
+}
+.mega-menu ul a span {
+  position: relative;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 3px;
+  transition: 0.5s;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.mega-menu .megaLink.active span {
+  transition: 0.5s;
+  color: #0300ff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.mega-menu .megaLink:hover span {
+  color: #0300ff;
+}
+
+.mega-menu .megaLink {
+  position: relative;
+}
+
+.mega-menu .megaLink::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  width: 0;
+  height: 1px;
+  left: -68px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s ease;
+}
+
+.mega-menu .megaLink:hover:after {
+  width: 55px;
+  background-color: #0300ff;
+}
+
+.mega-menu .megaLink.active::after {
+  content: "";
+  position: absolute;
+  background-color: #0300ff;
+  width: 55px;
+  height: 1px;
+  left: -68px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s ease;
+}
+
+.mega-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  margin-left: 3rem;
+}
+
+.mega-menu .contact-mobile {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 50px;
+  height: 50px;
+  right: 0;
+}
+
+.mega-menu .contact-mobile a i {
+  font-size: 24px;
+  color: #9e9fa2;
+}
+
+.mega-menu .contact-mobile a {
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.mega-menu .contact-mobile a:hover {
+  background-color: rgba(42, 53, 76, 0.1215686275);
+}
+
+.mega-menu .start-project {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: #0300ff;
+  color: white;
+}
+
+@media (max-height: 422px) {
+  .mega-menu {
+    height: 420px;
+  }
+}/*# sourceMappingURL=megaMenu.css.map */
